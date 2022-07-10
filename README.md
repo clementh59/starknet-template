@@ -1,3 +1,13 @@
+# starknet boilerplate
+
+## Install
+
+```shell
+git submodule init
+git submodule update
+```
+
+
 ## Update openzeppelin dependency
 
 ```shell
