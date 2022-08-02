@@ -19,6 +19,11 @@ make
 make test
 ```
 
+To test a specific file, you'll need to use `testFile`:
+```shell
+make testFile path=test_erc20.cairo
+```
+
 ## Deploy
 
 ```shell

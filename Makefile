@@ -7,5 +7,8 @@ deploy:
 test:
 	protostar test ./tests --cairo-path ./lib/cairo_contracts/src
 
+testFile:
+	protostar test ./tests/${path} --cairo-path ./lib/cairo_contracts/src
+
 clean:
 	rm -rf ./build
