@@ -1,0 +1,1 @@
+const ADMIN = 0x27
