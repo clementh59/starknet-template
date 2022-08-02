@@ -1,9 +1,10 @@
 # Starknet-template
 
-## Update openzeppelin dependency
+## Install
 
 ```shell
-protostar update cairo_contracts
+git submodule init
+git submodule update
 ```
 
 ## Compile
@@ -22,4 +23,10 @@ make test
 
 ```shell
 make deploy
+```
+
+## Update openzeppelin dependency
+
+```shell
+protostar update cairo_contracts
 ```
